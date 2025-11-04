@@ -103,8 +103,8 @@ public class Patterns {
             System.out.println();
         }
 
-        /**
-         Pattern 7
+             /**
+              Pattern 7
                     *
                   * * *
                  * * * *
@@ -112,16 +112,20 @@ public class Patterns {
                * * * * * * *
          */
         System.out.println("Pattern 7");
+        int n = 5; // number of rows
 
-        for (int i = 5; i >=1 ; i--) {
-            for (int j = 1; j <=i ; j++) {
-                System.out.print(j+" ");
-                for (int k = 0; k < ; k++) {
-                    
-                }
+        for(int i = 1; i <= n; i++) {
+            // print spaces
+            for(int s = i; s < n; s++) {
+                System.out.print("  ");
+            }
+            // print stars
+            for(int j = 1; j <= (2*i-1); j++) {
+                System.out.print("* ");
             }
             System.out.println();
         }
+
 
 
 
